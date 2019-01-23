@@ -3793,3 +3793,403 @@
 	"StringOP.h"
 	"Grid.h"
 
+1537148318 source:/home/arash/Projects/UpSpace/src/2DMap.cpp
+	"2DMap.h"
+	<fstream>
+	<string>
+	"StringOP.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/2DMap.h
+	<vector>
+	<string>
+
+1537148318 /home/arash/Projects/UpSpace/include/StringOP.h
+	<vector>
+	<string>
+
+1537148318 source:/home/arash/Projects/UpSpace/src/_command.cpp
+	"_command.h"
+	"StringOP.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/_command.h
+	<string>
+	<vector>
+	<map>
+
+1537148318 source:/home/arash/Projects/UpSpace/src/BTC.cpp
+	"BTC.h"
+	"math.h"
+	"string.h"
+	<iostream>
+	<fstream>
+	"StringOP.h"
+	"NormalDist.h"
+	<qdebug.h>
+
+1537148318 /home/arash/Projects/UpSpace/include/BTC.h
+	<string>
+	<vector>
+	"QuickSort.h"
+	"NormalDist.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/QuickSort.h
+	<vector>
+
+1537148318 /home/arash/Projects/UpSpace/include/NormalDist.h
+	"Vector.h"
+	"Matrix.h"
+	"NormalDist.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/Vector.h
+	<iostream>
+	<vector>
+	"QuickSort.h"
+	"armadillo"
+
+1537148318 /home/arash/Projects/UpSpace/include/Matrix.h
+	"Vector.h"
+	<iostream>
+	"math.h"
+	"armadillo"
+	"Matrix_arma.h"
+	"Vector_arma.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/Matrix_arma.h
+	"Vector_arma.h"
+	<iostream>
+	"math.h"
+	"armadillo"
+
+1537148318 /home/arash/Projects/UpSpace/include/Vector_arma.h
+	<iostream>
+	<vector>
+	"armadillo"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/BTCSet.cpp
+	"BTCSet.h"
+	"string.h"
+	<fstream>
+	"StringOP.h"
+	"Distribution.h"
+	<iostream>
+	"Vector.h"
+	"Matrix.h"
+	"omp.h"
+	<qdebug.h>
+
+1537148318 /home/arash/Projects/UpSpace/include/BTCSet.h
+	"BTC.h"
+	<vector>
+	"Vector.h"
+	"2DMap.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/Distribution.h
+	<vector>
+	<string>
+	"Vector.h"
+	"Matrix.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Copula.cpp
+	"Copula.h"
+	"NormalDist.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/Copula.h
+	<string>
+	<vector>
+	"Vector.h"
+	"Matrix.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Distribution.cpp
+	"Distribution.h"
+	"StringOP.h"
+	"gsl/gsl_cdf.h"
+
+1537153540 source:/home/arash/Projects/UpSpace/src/Grid.cpp
+	"Grid.h"
+	"StringOP.h"
+	"NormalDist.h"
+	<qtextbrowser.h>
+	"heteval.h"
+	"qdebug.h"
+	<QCursor>
+	<sys/resource.h>
+
+1537148318 /home/arash/Projects/UpSpace/include/Grid.h
+	<vector>
+	"Matrix.h"
+	"Vector.h"
+	"Matrix_arma.h"
+	"Matrix_arma_sp.h"
+	"BTCSet.h"
+	"Distribution.h"
+	"NormalDist.h"
+	"vtk.h"
+	"PathwaySet.h"
+	"_command.h"
+	"qtextbrowser.h"
+
+1537148318 /home/arash/Projects/UpSpace/include/Matrix_arma_sp.h
+	"Vector_arma.h"
+	<iostream>
+	"math.h"
+	"armadillo"
+
+1537148318 /home/arash/Projects/UpSpace/include/vtk.h
+	"vtkAutoInit.h"
+	<vtkVersion.h>
+	<vtkRenderer.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkRenderWindow.h>
+	<vtkSmartPointer.h>
+	<vtkChartXY.h>
+	<vtkTable.h>
+	<vtkPlot.h>
+	<vtkFloatArray.h>
+	<vtkContextView.h>
+	<vtkContextScene.h>
+	<vtkPen.h>
+	<vtkVersion.h>
+	<vtkSmartPointer.h>
+	<vtkInteractorStyleUser.h>
+	<vtkProperty.h>
+	<vtkOutlineFilter.h>
+	<vtkCommand.h>
+	<vtkSliderWidget.h>
+	<vtkSliderRepresentation.h>
+	<vtkSliderRepresentation3D.h>
+	<vtkImageData.h>
+	<vtkCellArray.h>
+	<vtkFloatArray.h>
+	<vtkPointData.h>
+	<vtkPolyDataMapper.h>
+	<vtkActor.h>
+	<vtkRenderer.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkContourFilter.h>
+	<vtkXMLImageDataWriter.h>
+	"vtkCylinderSource.h"
+	"vtkPolyDataMapper.h"
+	"vtkActor.h"
+	"vtkRenderer.h"
+	"vtkRenderWindow.h"
+	"vtkRenderWindowInteractor.h"
+	"vtkProperty.h"
+	"vtkCamera.h"
+	"vtkSmartPointer.h"
+	<vtkSmartPointer.h>
+	<vtkXMLPolyDataReader.h>
+	<vtkAppendPolyData.h>
+	<vtkClipPolyData.h>
+	<vtkCleanPolyData.h>
+	<vtkContourFilter.h>
+	<vtkFloatArray.h>
+	<vtkCellData.h>
+	<vtkPointData.h>
+	<vtkScalarsToColors.h>
+	<vtkLookupTable.h>
+	<vtkPolyDataMapper.h>
+	<vtkProperty.h>
+	<vtkActor.h>
+	<vtkRenderer.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vector>
+	<vtkVersion.h>
+	<vtkSmartPointer.h>
+	<vtkXMLPolyDataReader.h>
+	<vtkSphereSource.h>
+	<vtkPolyDataMapper.h>
+	<vtkPlane.h>
+	<vtkCutter.h>
+	<vtkProperty.h>
+	<vtkActor.h>
+	<vtkRenderer.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkMath.h>
+	<vtkVersion.h>
+	<vtkSmartPointer.h>
+	<vtkActor.h>
+	<vtkDelaunay2D.h>
+	<vtkLookupTable.h>
+	<vtkMath.h>
+	<vtkPointData.h>
+	<vtkPoints.h>
+	<vtkPolyData.h>
+	<vtkPolyDataMapper.h>
+	<vtkProperty.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkRenderer.h>
+	<vtkVertexGlyphFilter.h>
+	<vtkXMLPolyDataWriter.h>
+	<vtkSmartPointer.h>
+	<vtkLineSource.h>
+	<vtkPolyData.h>
+	<vtkPolyDataMapper.h>
+	<vtkActor.h>
+	<vtkProperty.h>
+	<vtkRenderWindow.h>
+	<vtkRenderer.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkChartXY.h>
+	<vtkContextScene.h>
+	<vtkContextView.h>
+	<vtkFloatArray.h>
+	<vtkPlotPoints.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkRenderer.h>
+	<vtkTable.h>
+	<vtkPNGWriter.h>
+	<vtkImageCast.h>
+	<vtkWindowToImageFilter.h>
+	<vtkVersion.h>
+	<vtkArrowSource.h>
+	<vtkCellArray.h>
+	<vtkGlyph2D.h>
+	<vtkPointData.h>
+	<vtkImageData.h>
+	<vtkImageSliceMapper.h>
+	<vtkImageSlice.h>
+	<vtkInteractorStyleImage.h>
+	<vtkPolyDataMapper.h>
+	<vtkPolyData.h>
+	<vtkPoints.h>
+	<vtkRenderer.h>
+	<vtkRenderWindow.h>
+	<vtkRenderWindowInteractor.h>
+	<vtkSmartPointer.h>
+	<vtkXMLPolyDataWriter.h>
+	<vtkVersion.h>
+	<vtkSmartPointer.h>
+	<vtkCellArray.h>
+	<vtkCellData.h>
+	<vtkDoubleArray.h>
+	<vtkPoints.h>
+	<vtkPolyLine.h>
+	<vtkPolyData.h>
+	<vtkPolyDataMapper.h>
+	<vtkActor.h>
+	<vtkRenderWindow.h>
+	<vtkRenderer.h>
+	<vtkRenderWindowInteractor.h>
+
+1537148318 /home/arash/Projects/UpSpace/include/PathwaySet.h
+	"Pathway.h"
+	<vector>
+	<string>
+
+1537148318 /home/arash/Projects/UpSpace/include/Pathway.h
+	<vector>
+	"Position.h"
+	"Distribution.h"
+	"vtk.h"
+	<string>
+	<BTCSet.h>
+
+1537148318 /home/arash/Projects/UpSpace/include/Position.h
+	"Vector.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Matrix.cpp
+	"Matrix.h"
+	"math.h"
+	<iostream>
+	"armadillo"
+	"StringOP.h"
+	"Matrix_arma.h"
+	"Matrix_arma_sp.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Matrix_arma.cpp
+	"Matrix_arma.h"
+	"Vector_arma.h"
+	"math.h"
+	<iostream>
+	"armadillo"
+	<vector>
+	"Vector.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Matrix_arma_sp.cpp
+	"Matrix_arma_sp.h"
+	"Vector_arma.h"
+	"math.h"
+	<iostream>
+	"armadillo"
+	<vector>
+	"Vector.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/NormalDist.cpp
+	"Vector.h"
+	"Matrix.h"
+	"NormalDist.h"
+	<cstdlib>
+	"math.h"
+	"Vector.h"
+	"Matrix.h"
+	"NormalDist.h"
+	<cstdlib>
+	"math.h"
+	"Distribution.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Pathway.cpp
+	"Pathway.h"
+	<iostream>
+	<fstream>
+	"gsl/gsl_cdf.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/PathwaySet.cpp
+	"PathwaySet.h"
+	"StringOP.h"
+	"Grid.h"
+
+1548214525 source:/home/arash/Projects/UpSpace/src/Plots.cpp
+	"Grid.h"
+	<qapplication.h>
+	<qmainwindow.h>
+	<qtoolbar.h>
+	<qtoolbutton.h>
+	<qwt_plot.h>
+	<qdebug.h>
+	"heteval.h"
+	"Spectogram.h"
+	"vtk.h"
+	"Pathway.h"
+	"StringOP.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Position.cpp
+	"Position.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/QuickSort.cpp
+	"QuickSort.h"
+	<iostream>
+	<algorithm>
+	<vector>
+	"time.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/StringOP.cpp
+	"StringOP.h"
+	<string>
+	<iostream>
+	<fstream>
+	"math.h"
+	<algorithm>
+	<iomanip>
+	<locale>
+	<sstream>
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Vector.cpp
+	"Vector.h"
+	"math.h"
+	"Matrix.h"
+	<cfloat>
+	"Vector_arma.h"
+
+1537148318 source:/home/arash/Projects/UpSpace/src/Vector_arma.cpp
+	"Vector_arma.h"
+	"math.h"
+	"Matrix_arma.h"
+	"Matrix_arma_sp.h"
+	<cfloat>
+	"Vector.h"
+
