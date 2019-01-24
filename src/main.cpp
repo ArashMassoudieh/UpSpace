@@ -1,3 +1,4 @@
+//#define ARMA_USE_SUPERLU 1
 #ifdef QT_version
 #include "heteval.h"
 #include <QtWidgets/QApplication>

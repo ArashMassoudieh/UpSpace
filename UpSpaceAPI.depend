@@ -3793,30 +3793,30 @@
 	"StringOP.h"
 	"Grid.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/2DMap.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/2DMap.cpp
 	"2DMap.h"
 	<fstream>
 	<string>
 	"StringOP.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/2DMap.h
+1548271101 /home/arash/Projects/UpSpace/include/2DMap.h
 	<vector>
 	<string>
 
-1537148318 /home/arash/Projects/UpSpace/include/StringOP.h
+1548271101 /home/arash/Projects/UpSpace/include/StringOP.h
 	<vector>
 	<string>
 
-1537148318 source:/home/arash/Projects/UpSpace/src/_command.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/_command.cpp
 	"_command.h"
 	"StringOP.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/_command.h
+1548271101 /home/arash/Projects/UpSpace/include/_command.h
 	<string>
 	<vector>
 	<map>
 
-1537148318 source:/home/arash/Projects/UpSpace/src/BTC.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/BTC.cpp
 	"BTC.h"
 	"math.h"
 	"string.h"
@@ -3826,27 +3826,27 @@
 	"NormalDist.h"
 	<qdebug.h>
 
-1537148318 /home/arash/Projects/UpSpace/include/BTC.h
+1548271101 /home/arash/Projects/UpSpace/include/BTC.h
 	<string>
 	<vector>
 	"QuickSort.h"
 	"NormalDist.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/QuickSort.h
+1548271101 /home/arash/Projects/UpSpace/include/QuickSort.h
 	<vector>
 
-1537148318 /home/arash/Projects/UpSpace/include/NormalDist.h
+1548271101 /home/arash/Projects/UpSpace/include/NormalDist.h
 	"Vector.h"
 	"Matrix.h"
 	"NormalDist.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/Vector.h
+1548271101 /home/arash/Projects/UpSpace/include/Vector.h
 	<iostream>
 	<vector>
 	"QuickSort.h"
 	"armadillo"
 
-1537148318 /home/arash/Projects/UpSpace/include/Matrix.h
+1548271101 /home/arash/Projects/UpSpace/include/Matrix.h
 	"Vector.h"
 	<iostream>
 	"math.h"
@@ -3854,18 +3854,18 @@
 	"Matrix_arma.h"
 	"Vector_arma.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/Matrix_arma.h
+1548284231 /home/arash/Projects/UpSpace/include/Matrix_arma.h
 	"Vector_arma.h"
 	<iostream>
 	"math.h"
 	"armadillo"
 
-1537148318 /home/arash/Projects/UpSpace/include/Vector_arma.h
+1548271101 /home/arash/Projects/UpSpace/include/Vector_arma.h
 	<iostream>
 	<vector>
 	"armadillo"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/BTCSet.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/BTCSet.cpp
 	"BTCSet.h"
 	"string.h"
 	<fstream>
@@ -3877,34 +3877,34 @@
 	"omp.h"
 	<qdebug.h>
 
-1537148318 /home/arash/Projects/UpSpace/include/BTCSet.h
+1548271101 /home/arash/Projects/UpSpace/include/BTCSet.h
 	"BTC.h"
 	<vector>
 	"Vector.h"
 	"2DMap.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/Distribution.h
+1548271101 /home/arash/Projects/UpSpace/include/Distribution.h
 	<vector>
 	<string>
 	"Vector.h"
 	"Matrix.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Copula.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Copula.cpp
 	"Copula.h"
 	"NormalDist.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/Copula.h
+1548271101 /home/arash/Projects/UpSpace/include/Copula.h
 	<string>
 	<vector>
 	"Vector.h"
 	"Matrix.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Distribution.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Distribution.cpp
 	"Distribution.h"
 	"StringOP.h"
 	"gsl/gsl_cdf.h"
 
-1537153540 source:/home/arash/Projects/UpSpace/src/Grid.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Grid.cpp
 	"Grid.h"
 	"StringOP.h"
 	"NormalDist.h"
@@ -3914,7 +3914,7 @@
 	<QCursor>
 	<sys/resource.h>
 
-1537148318 /home/arash/Projects/UpSpace/include/Grid.h
+1548271101 /home/arash/Projects/UpSpace/include/Grid.h
 	<vector>
 	"Matrix.h"
 	"Vector.h"
@@ -3928,13 +3928,13 @@
 	"_command.h"
 	"qtextbrowser.h"
 
-1537148318 /home/arash/Projects/UpSpace/include/Matrix_arma_sp.h
+1548271101 /home/arash/Projects/UpSpace/include/Matrix_arma_sp.h
 	"Vector_arma.h"
 	<iostream>
 	"math.h"
 	"armadillo"
 
-1537148318 /home/arash/Projects/UpSpace/include/vtk.h
+1548271101 /home/arash/Projects/UpSpace/include/vtk.h
 	"vtkAutoInit.h"
 	<vtkVersion.h>
 	<vtkRenderer.h>
@@ -4076,12 +4076,12 @@
 	<vtkRenderer.h>
 	<vtkRenderWindowInteractor.h>
 
-1537148318 /home/arash/Projects/UpSpace/include/PathwaySet.h
+1548271101 /home/arash/Projects/UpSpace/include/PathwaySet.h
 	"Pathway.h"
 	<vector>
 	<string>
 
-1537148318 /home/arash/Projects/UpSpace/include/Pathway.h
+1548271101 /home/arash/Projects/UpSpace/include/Pathway.h
 	<vector>
 	"Position.h"
 	"Distribution.h"
@@ -4089,10 +4089,10 @@
 	<string>
 	<BTCSet.h>
 
-1537148318 /home/arash/Projects/UpSpace/include/Position.h
+1548271101 /home/arash/Projects/UpSpace/include/Position.h
 	"Vector.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Matrix.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Matrix.cpp
 	"Matrix.h"
 	"math.h"
 	<iostream>
@@ -4101,7 +4101,7 @@
 	"Matrix_arma.h"
 	"Matrix_arma_sp.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Matrix_arma.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Matrix_arma.cpp
 	"Matrix_arma.h"
 	"Vector_arma.h"
 	"math.h"
@@ -4110,7 +4110,7 @@
 	<vector>
 	"Vector.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Matrix_arma_sp.cpp
+1548284283 source:/home/arash/Projects/UpSpace/src/Matrix_arma_sp.cpp
 	"Matrix_arma_sp.h"
 	"Vector_arma.h"
 	"math.h"
@@ -4119,7 +4119,7 @@
 	<vector>
 	"Vector.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/NormalDist.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/NormalDist.cpp
 	"Vector.h"
 	"Matrix.h"
 	"NormalDist.h"
@@ -4132,18 +4132,18 @@
 	"math.h"
 	"Distribution.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Pathway.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Pathway.cpp
 	"Pathway.h"
 	<iostream>
 	<fstream>
 	"gsl/gsl_cdf.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/PathwaySet.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/PathwaySet.cpp
 	"PathwaySet.h"
 	"StringOP.h"
 	"Grid.h"
 
-1548214525 source:/home/arash/Projects/UpSpace/src/Plots.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Plots.cpp
 	"Grid.h"
 	<qapplication.h>
 	<qmainwindow.h>
@@ -4157,17 +4157,17 @@
 	"Pathway.h"
 	"StringOP.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Position.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Position.cpp
 	"Position.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/QuickSort.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/QuickSort.cpp
 	"QuickSort.h"
 	<iostream>
 	<algorithm>
 	<vector>
 	"time.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/StringOP.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/StringOP.cpp
 	"StringOP.h"
 	<string>
 	<iostream>
@@ -4178,18 +4178,27 @@
 	<locale>
 	<sstream>
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Vector.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Vector.cpp
 	"Vector.h"
 	"math.h"
 	"Matrix.h"
 	<cfloat>
 	"Vector_arma.h"
 
-1537148318 source:/home/arash/Projects/UpSpace/src/Vector_arma.cpp
+1548271101 source:/home/arash/Projects/UpSpace/src/Vector_arma.cpp
 	"Vector_arma.h"
 	"math.h"
 	"Matrix_arma.h"
 	"Matrix_arma_sp.h"
 	<cfloat>
 	"Vector.h"
+
+1548284237 source:/home/arash/Projects/UpSpace/src/main.cpp
+	"heteval.h"
+	<QtWidgets/QApplication>
+	<sys/resource.h>
+	<iostream>
+	"Grid.h"
+	"2DMap.h"
+	"NormalDist.h"
 

@@ -2,7 +2,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#define ARMA_USE_SUPERLU 1
+//#define ARMA_USE_SUPERLU 1
 
 #include "Matrix_arma_sp.h"
 #include "Vector_arma.h"
@@ -32,7 +32,7 @@ CMatrix_arma_sp::CMatrix_arma_sp(int m, int n)
 	numcols = n;
 	matr = sp_mat(m, n);
 //	matr.fill(fill::zeros);
-	
+
 }
 
 CMatrix_arma_sp::CMatrix_arma_sp()
@@ -54,7 +54,7 @@ CMatrix_arma_sp::CMatrix_arma_sp(const CMatrix_arma_sp &m)
 	numrows = m.numrows;
 	numcols = m.numcols;
 	matr = m.matr;
-	
+
 }
 
 CMatrix_arma_sp::CMatrix_arma_sp(const CVector_arma &v)
@@ -62,7 +62,7 @@ CMatrix_arma_sp::CMatrix_arma_sp(const CVector_arma &v)
 	numrows = v.num;
 	numcols = 1;
 	matr = sp_mat(numrows,1);
-	
+
 	for (int i=0; i<numrows; ++i)  matr(i,0) = v.vect(i);
 }
 
@@ -93,15 +93,15 @@ vector<double*> CMatrix_arma_sp::get(int i)
 }
 
 int CMatrix_arma_sp::getnumrows() const {return numrows;};
-int CMatrix_arma_sp::getnumcols() const {return numcols;};	
+int CMatrix_arma_sp::getnumcols() const {return numcols;};
 
 CMatrix_arma_sp& CMatrix_arma_sp::operator=(const CMatrix_arma_sp &m)
 {
-	
+
 	numcols = m.numcols;
 	numrows = m.numrows;
 	matr = m.matr;
-	
+
 	return *this;
 }
 
@@ -160,7 +160,7 @@ CMatrix_arma_sp operator*(CMatrix_arma_sp &m1, CMatrix_arma_sp &m2)
 
 
 CVector_arma mult(CMatrix_arma_sp &m1, CVector_arma &v1)
-{	
+{
 	int nr = m1.getnumrows();
 	CVector_arma vt(nr);
 	vt.vect = m1.matr*v1.vect;
@@ -247,10 +247,10 @@ CVector_arma operator*(CMatrix_arma_sp &m, CVector_arma &v)
 
 CVector_arma operator/(CVector_arma &V, CMatrix_arma_sp &M)
 {
-	CVector_arma X(M.getnumcols()); 
+	CVector_arma X(M.getnumcols());
 	bool status = spsolve( X.vect, M.matr, V.vect);
 	if (status == false) X.num = 0;
-	return X; 
+	return X;
 }
 
 CMatrix_arma_sp Log(CMatrix_arma_sp &M1)
@@ -368,7 +368,7 @@ void CMatrix_arma_sp::writetofile(string filename)
 		{
 			f<<matr.at(i, j)<<",";
 			//double a = matr(i, j);
-			//double b = 2 * a; 
+			//double b = 2 * a;
 		}
 
 		f << endl;
@@ -398,7 +398,7 @@ CMatrix_arma_sp Transpose(CMatrix_arma_sp &M1)	//Works only when M1.getnumcols()
 
 void CMatrix_arma_sp::print(string s)
 {
-	
+
 	ofstream Afile;
 	Afile.open(s+".txt");
 
@@ -409,7 +409,7 @@ void CMatrix_arma_sp::print(string s)
 			Afile << matr(i,j) << ", ";
 		}
 		Afile << "\n";
-	}	
+	}
 }
 
 CVector_arma solve_ar(CMatrix_arma_sp &M, CVector_arma &V)
@@ -424,8 +424,8 @@ CVector_arma solve_ar(CMatrix_arma_sp &M, CVector_arma &V)
 
 CMatrix_arma_sp inv(CMatrix_arma_sp &M)
 {
-	
-	CMatrix_arma_sp A;	
+
+	CMatrix_arma_sp A;
 	//bool X = inv(A.matr, M.matr);
 	//if (X) A.setnumcolrows();
 	return A;
@@ -443,7 +443,7 @@ CMatrix_arma_sp& CMatrix_arma_sp::operator=(mat &A)
 	numcols = A.n_cols;
 	numrows = A.n_rows;
 	matr = A;
-	return *this;	
+	return *this;
 }
 
 void write_to_file(vector<CMatrix_arma_sp> M, string filename)
@@ -460,7 +460,7 @@ void write_to_file(vector<CMatrix_arma_sp> M, string filename)
 				cout<< M[k].get(i,j) << "\, ";
 			}
 			Afile << "\n";
-		}	
+		}
 	Afile << "\n";
 	}
 
@@ -474,7 +474,7 @@ CMatrix_arma_sp Average(vector<CMatrix_arma_sp> M)
 		for (int i = 0; i<M[k].numrows; ++i)
 			for (int j = 0; j<M[k].numcols; ++j)
 				AVG.get(i,j) += M[k].get(i,j)/n;
-	return AVG;		
+	return AVG;
 }
 
 CVector_arma CMatrix_arma_sp::diag_ratio()
@@ -493,7 +493,7 @@ vector<vector<bool>> CMatrix_arma_sp::non_posdef_elems(double tol)
 {
 	vector<vector<bool>> M;
 	M.resize(getnumcols());
-	
+
 	for (int i = 0; i < getnumcols(); i++)
 	{
 		M[i].resize(getnumcols());
@@ -508,11 +508,11 @@ vector<vector<bool>> CMatrix_arma_sp::non_posdef_elems(double tol)
 CMatrix_arma_sp CMatrix_arma_sp::non_posdef_elems_m(double tol)
 {
 	CMatrix_arma_sp M(getnumcols(), getnumrows());
-	
+
 	for (int i = 0; i < getnumcols(); i++)
 		for (int j = 0; j < getnumrows(); j++)
 			if (matr(i,j) / matr(i,i) > tol) M.get(i,j) = matr(i,j);
-	
+
 	return M;
 
 
@@ -553,7 +553,7 @@ vector<string> CMatrix_arma_sp::toString(string format, vector<string> columnHea
 		colOffset = 1;
 	}
 	r.resize(numrows + rowOffset);
-	
+
 
 	if (colH)
 	{
